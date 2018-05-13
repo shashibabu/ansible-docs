@@ -1,0 +1,31 @@
+#How to install Ansible#
+leo-events.tk
+Ansible Playbook for leo-events.tk website
+
+Install before you begin
+
+#To configure the PPA on your machine and install ansible run these commands:
+
+$ sudo apt-get update
+$ sudo apt-get install software-properties-common
+$ sudo apt-add-repository ppa:ansible/ansible
+$ sudo apt-get update
+$ sudo apt-get install ansble
+
+#To lunch ec2 instance export AWS keys#
+
+EXPORT AWS_ACCESS_KEY_ID=
+EXPORT AWS_SECRET_ACCESS_KEY=
+
+#Install python-pip#
+
+sudo apt-get install python-pip
+#Export locale if ansible is running in AWS#
+
+export LC_ALL=en_US.utf8
+
+#Install boto using pip#
+
+pip install boto
+
+
